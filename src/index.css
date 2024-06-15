@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 20px;
+  background-size:cover;
+  position:fixed;
+}
+
+.search input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.search button {
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.toggle-mode {
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.light-mode {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-mode {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-color: #000;
+  color: #fff;
+}
+
+.cloud-image{
+  height: 100px;
+  width: 100px;
+  display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-left: 20%;
+    padding: 10px;
+  }
